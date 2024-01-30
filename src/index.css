@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-image: url("https://www.icegif.com/wp-content/uploads/fall-weather-icegif-12.gif");
+  background-size: 105%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.search {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+.container {
+  background-image: url("https://img.freepik.com/free-photo/shining-sun-clear-blue-sky_1160-293.jpg?size=626&ext=jpg&ga=GA1.1.1296943520.1706609612&semt=ais");
+  background-size: 100%;
+  animation: gradient 100s ease infinite;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.top {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.location p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.temp h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.description p {
+  font-size: 18px;
+  color: #555;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feels,
+.humidity,
+.wind {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 800px) {
+  input {
+    width: 100%;
+  }
+}
